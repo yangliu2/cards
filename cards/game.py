@@ -11,6 +11,7 @@ class Game:
         self.deck = Deck()
         self.set_rank()
         self.draw_cards()
+        self.start_card = Card("Hearts", 3)
 
 
     @staticmethod
@@ -58,9 +59,8 @@ class Game:
     def determine_first(self) -> str:
         """Determine who goes first. Need to draw cards first"""
         for player in self.players:
-            start_card = Card("Hearts", 3)
 
-            if start_card in player.hand:
+            if self.start_card in player.hand:
                 print(f"{player.name} goes first.")
                 return player.name
 
