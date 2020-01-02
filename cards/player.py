@@ -26,9 +26,11 @@ class Player:
         self.hand = sorted(self.hand, key=lambda x: x.rank, 
             reverse=False)
 
-    def play_hand(self, previous_hand):
+    def play_hand(self):
         # play by sorted order, no rank, baseline
         played_card = self.hand.pop()
         print(f"{self.name} played {played_card}")
         return played_card
             
+    def play_hand(self, previous_hand, rank):
+        print(f"previous player played {previous_hand[-1]}")

@@ -79,7 +79,8 @@ class Game:
         starter_index = self.player_order.index(starting_player)
         self.player_order = self.players[starter_index:] + self.players[:starter_index]
 
-        print(self.player_order)
+
+        # print(self.player_order)
         # go through each turns
         previous_hands = []
         player_card_count = len(self.player_order[0].hand)
@@ -91,7 +92,7 @@ class Game:
                 # print(f"current player hand len {player_card_count}")
                 
                 previous_hands.append(previous_hand)
-                print(f"{current_player.name}: {current_player.hand}")
+                # print(f"{current_player.name}: {current_player.hand}")
 
                 # need to exit for loop when last card from any player is played. 
                 # TODO: might be a better algorithm with the whle loop?
