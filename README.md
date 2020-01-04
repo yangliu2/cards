@@ -19,3 +19,6 @@ Create your own gym environments:
 * https://github.com/openai/gym/blob/master/docs/creating-environments.md
 * https://towardsdatascience.com/creating-a-custom-openai-gym-environment-for-stock-trading-be532be3910e
 * https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa
+
+Specific environmnet for text, possibly in a conversation:
+* https://github.com/microsoft/textworld
