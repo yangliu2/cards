@@ -22,3 +22,13 @@ Create your own gym environments:
 
 Specific environmnet for text, possibly in a conversation:
 * https://github.com/microsoft/textworld
+
+chatbot related RL
+* https://towardsdatascience.com/training-a-goal-oriented-chatbot-with-deep-reinforcement-learning-part-iv-user-simulator-and-a0efd3829364
+
+Atari implementation by Digital Ocean:
+* https://www.digitalocean.com/community/tutorials/how-to-build-atari-bot-with-openai-gym
+
+More environment tutorials:
+* https://colab.research.google.com/github/araffin/rl-tutorial-jnrr19/blob/master/5_custom_gym_env.ipynb
+* 
